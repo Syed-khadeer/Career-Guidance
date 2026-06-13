@@ -8,34 +8,68 @@
 </head>
 <body>
 
-<header>
-    <h1>Career Compass</h1>
-    <p>Helping First-Generation Students Navigate Careers</p>
-</header>
+    <header>
+        <h1>Career Compass</h1>
+        <p>Your Guide To Career Planning</p>
+    </header>
 
-<main>
+    <section class="hero">
+        <h2>Navigate Your Career With Confidence</h2>
+        <p>
+            Explore career paths, skills, educational routes,
+            costs and opportunities.
+        </p>
+    </section>
 
-    <section class="selector-card">
-        <h2>Select a Career</h2>
+    <section class="about">
+        <h2>About Career Compass</h2>
+        <p>
+            Career Compass helps students understand
+            career opportunities and required skills
+            through a single platform.
+        </p>
+    </section>
 
-        <select id="careerSelect">
+    <section class="features">
+        <div class="card">Career Roadmaps</div>
+        <div class="card">Skill Analysis</div>
+        <div class="card">Cost Insights</div>
+        <div class="card">Career Comparison</div>
+    </section>
+
+    <section class="career-select">
+        <h2>Select Your Career</h2>
+
+        <select id="career">
+            <option value="">Choose Career</option>
             <option value="software">Software Engineer</option>
             <option value="ai">AI Engineer</option>
-            <option value="doctor">Doctor</option>
-            <option value="ca">Chartered Accountant</option>
-            <option value="ias">IAS Officer</option>
         </select>
     </section>
 
-    <section id="careerInfo" class="career-card">
+    <section id="details">
+
+        <h2 id="title"></h2>
+
+        <h3>Roadmap</h3>
+        <p id="roadmap"></p>
+
+        <h3>Skills</h3>
+        <ul id="skills"></ul>
+
+        <h3>Cost</h3>
+        <p id="cost"></p>
+
+        <h3>Salary</h3>
+        <p id="salary"></p>
+
     </section>
 
-</main>
+    <footer>
+        <p>Career Compass © 2026</p>
+    </footer>
 
-<footer>
-    <p>Career Compass © 2026</p>
-</footer>
+    <script src="script.js"></script>
 
-<script src="javascript.js"></script>
 </body>
 </html>
