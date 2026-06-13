@@ -1,76 +1,53 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
-    font-family:Arial,sans-serif;
-    background:#f4f6f8;
-    color:#333;
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f5f7fa;
 }
 
 header{
     background:#2563eb;
     color:white;
     text-align:center;
-    padding:25px;
+    padding:30px;
 }
 
-header p{
-    margin-top:8px;
+.hero,
+.about,
+.career-select,
+#details{
+    padding:30px;
 }
 
-main{
-    width:90%;
-    max-width:900px;
-    margin:20px auto;
+.features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    padding:30px;
 }
 
-.selector-card,
-.career-card{
+.card{
     background:white;
     padding:20px;
     border-radius:10px;
-    margin-bottom:20px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    text-align:center;
 }
 
-select{
-    width:100%;
+#career{
     padding:10px;
-    margin-top:10px;
-    font-size:16px;
+    width:250px;
 }
 
-h2{
-    color:#2563eb;
-    margin-bottom:15px;
-}
-
-h3{
-    margin-top:20px;
-    color:#1e40af;
-}
-
-ul,ol{
-    margin-left:20px;
-    margin-top:10px;
-}
-
-li{
-    margin-bottom:5px;
-}
-
-.info-box{
-    background:#eef4ff;
-    padding:12px;
-    border-radius:8px;
-    margin:10px 0;
+#details{
+    display:none;
+    background:white;
+    margin:20px;
+    border-radius:10px;
 }
 
 footer{
     text-align:center;
     padding:20px;
-    background:white;
+    background:#1e3a8a;
+    color:white;
 }
